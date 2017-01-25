@@ -25,4 +25,7 @@
     <string name="enter_your_zip_code">Enter your zip code</string>
     <string name="mixologists">MIXOLOGISTS</string>
     <string name="florists">FLORISTS</string>
+    <string name="party_supplies">PARTY SUPPLIES</string>
+    <string name="djs">DJs</string>
+    <string name="bakeries">BAKERIES</string>
 </resources>
