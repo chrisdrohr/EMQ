@@ -1,9 +1,6 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:paddingBottom="16dp"
-    android:paddingLeft="64dp"
-    android:paddingRight="64dp"
-    android:paddingTop="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.eventmakr.eventmakr.VendorActivity">
@@ -22,22 +19,22 @@
 
         <RelativeLayout
             android:id="@+id/topPanelLayout"
-            android:paddingTop="120dp"
+            android:paddingTop="90dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="We found         for your event!"
+                android:text="We found      vendors for your event!"
                 android:layout_centerHorizontal="true"
-                android:textSize="18sp"
+                android:textSize="17sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textViewFoundVendors1" />
 
             <TextView
                 android:text="00"
-                android:paddingLeft="145dp"
-                android:textSize="18sp"
+                android:paddingLeft="82dp"
+                android:textSize="17sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textViewFoundVendors2Insert" />
@@ -45,56 +42,97 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/layoutVendor1"
+            android:layout_centerHorizontal="true"
             android:layout_below="@+id/topPanelLayout"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
-            <!--<FrameLayout-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="match_parent">-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewCaterers"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/colorButtons"
+                android:layout_width="120dp"
+                android:layout_height="150dp">
 
-                <!--<RelativeLayout-->
-                    <!--android:layout_width="191dp"-->
-                    <!--android:layout_height="match_parent">-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-            <!--<ImageButton-->
-                <!--android:id=""-->
-                <!--android:src="@drawable/logo"-->
-                <!--android:layout_width="48dp"-->
-                <!--android:layout_height="48dp" />-->
-            <!--<ImageView-->
-                <!--android:src="@drawable/logo"-->
-                <!--android:layout_width="48dp"-->
-                <!--android:layout_height="48dp" />-->
-            <!--<ImageView-->
-                <!--android:src="@drawable/logo"-->
-                <!--android:layout_width="48dp"-->
-                <!--android:layout_height="48dp" />-->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:text="CATERERS"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:padding="10dp"
+                        android:textColor="@color/colorText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
 
-                <!--</RelativeLayout>-->
+                </RelativeLayout>
 
-            <!--</FrameLayout>-->
+            </android.support.v7.widget.CardView>
 
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewMixologists"
+                android:layout_toEndOf="@id/cardViewCaterers"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/colorButtons"
+                android:layout_width="120dp"
+                android:layout_height="150dp">
 
-            <!--<ImageView-->
-                <!--android:src="@drawable/logo"-->
-                <!--android:layout_width="48dp"-->
-                <!--android:layout_height="48dp"-->
-                <!--tools:layout_editor_absoluteY="182dp"-->
-                <!--tools:layout_editor_absoluteX="16dp" />-->
-            <!--<ImageView-->
-                <!--android:src="@drawable/logo"-->
-                <!--android:layout_width="48dp"-->
-                <!--android:layout_height="48dp"-->
-                <!--tools:layout_editor_absoluteY="182dp"-->
-                <!--tools:layout_editor_absoluteX="16dp" />-->
-            <!--<ImageView-->
-                <!--android:src="@drawable/logo"-->
-                <!--android:layout_width="48dp"-->
-                <!--android:layout_height="48dp"-->
-                <!--tools:layout_editor_absoluteY="182dp"-->
-                <!--tools:layout_editor_absoluteX="16dp" />-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:text="@string/mixologists"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:padding="10dp"
+                        android:textColor="@color/colorText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewFlorists"
+                android:layout_toEndOf="@id/cardViewMixologists"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/colorButtons"
+                android:layout_width="120dp"
+                android:layout_height="150dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:text="@string/florists"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:padding="10dp"
+                        android:textColor="@color/colorText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
 
         </RelativeLayout>
 

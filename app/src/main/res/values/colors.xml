@@ -3,6 +3,8 @@
     <color name="colorPrimary">#E3F2FD</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#2196F3</color>
+    <color name="colorButtons">#000000</color>
 
     <color name="black_overlay">#66000000</color>
     <color name="background_lite">#FFFAFAFA</color>

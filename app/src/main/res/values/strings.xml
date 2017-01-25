@@ -16,9 +16,13 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="when_will_your_event_be_held">When will your event be held?</string>
     <string name="what_is_your_estimated_budget">What is your estimated budget?</string>
-    <string name="find_vendors">FIND VENDORS!</string>
+    <string name="find_vendors">FIND VENDORS</string>
     <string name="we_found">We found</string>
     <string name="vendors_for_your_event">vendors for your event!</string>
     <string name="caterers">CATERERS</string>
     <string name="title_activity_consumer">ConsumerActivity</string>
+    <string name="log_in">LOG IN</string>
+    <string name="enter_your_zip_code">Enter your zip code</string>
+    <string name="mixologists">MIXOLOGISTS</string>
+    <string name="florists">FLORISTS</string>
 </resources>
