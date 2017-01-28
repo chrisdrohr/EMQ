@@ -28,4 +28,5 @@
     <string name="party_supplies">PARTY SUPPLIES</string>
     <string name="djs">DJs</string>
     <string name="bakeries">BAKERIES</string>
+    <string name="filter_results_by_estimated_budget">Filter results by estimated budget</string>
 </resources>
