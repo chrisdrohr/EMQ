@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.eventmakr.eventmakr.Activities.VendorActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo2"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:paddingTop="40dp"
+                android:text="@string/when_will_your_event_be_held"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewCalendar" />
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/textViewCalendar"
+                android:elevation="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            </android.support.v7.widget.CardView>
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="400dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:text="@string/find_vendors"
+                    android:textColor="@color/colorText"
+                    android:textSize="20sp"
+                    android:elevation="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/buttonFindVendorsCalendar"
+                    android:elevation="2dp"
+                    app:cardBackgroundColor="@color/colorButtons"
+                    app:cardCornerRadius="15dp"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

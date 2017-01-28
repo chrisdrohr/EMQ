@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/consumerActivityLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eventmakr.eventmakr.Activities.VendorActivity">
+
+    <!--<fragment-->
+        <!--android:name="com.example.eventmakr.eventmakr.Fragments.NavBar"-->
+        <!--android:id="@+id/navBar"-->
+        <!--android:layout_gravity="bottom|center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <!--<fragment-->
+        <!--android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerCalendarFragment"-->
+        <!--android:id="@+id/FragmentCalendar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView_logo"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:src="@drawable/logo"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:paddingTop="120dp"-->
+            <!--android:text="@string/select_your_location"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textViewLocation" />-->
+
+        <!--<Spinner-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textViewLocation"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="28dp"-->
+            <!--android:id="@+id/spinner_location" />-->
+
+        <!--<TextView-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:paddingTop="250dp"-->
+            <!--android:text="@string/what_s_the_occasion"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textViewOccasion"/>-->
+
+        <!--<Spinner-->
+            <!--android:layout_width="150dp"-->
+            <!--android:tag="Select"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textViewOccasion"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="28dp"-->
+            <!--android:id="@+id/spinner_occasion" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="400dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TextView-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:text="@string/next"-->
+                <!--android:elevation="4dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/buttonNextDropdown"-->
+                <!--android:elevation="2dp"-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="80dp" />-->
+
+        <!--</RelativeLayout>-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--</RelativeLayout>-->
+
+</FrameLayout>
