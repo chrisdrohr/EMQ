@@ -15,7 +15,7 @@
         <ImageView
             android:id="@+id/navButton_Party"
             android:layout_centerVertical="true"
-            android:layout_margin="15dp"
+            android:layout_margin="10dp"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         <ImageView
             android:id="@+id/navButton_Chat"
             android:layout_centerVertical="true"
-            android:layout_margin="15dp"
+            android:layout_margin="10dp"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:layout_toEndOf="@+id/navButton_Party"
@@ -36,7 +36,7 @@
         <ImageView
             android:id="@+id/navButton_Cart"
             android:layout_centerVertical="true"
-            android:layout_margin="15dp"
+            android:layout_margin="10dp"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:layout_toEndOf="@+id/navButton_Chat"
@@ -47,7 +47,7 @@
         <ImageView
             android:id="@+id/navButton_User"
             android:layout_centerVertical="true"
-            android:layout_margin="15dp"
+            android:layout_margin="10dp"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:layout_toEndOf="@+id/navButton_Cart"

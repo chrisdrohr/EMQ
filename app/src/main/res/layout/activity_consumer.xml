@@ -1,16 +1,38 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/consumerActivityLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.eventmakr.eventmakr.Activities.VendorActivity">
 
-    <!--<fragment-->
-        <!--android:name="com.example.eventmakr.eventmakr.Fragments.NavBar"-->
-        <!--android:id="@+id/navBar"-->
-        <!--android:layout_gravity="bottom|center"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"/>-->
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView_logo"
+                android:layout_margin="5dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logoi"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <fragment
+        android:name="com.example.eventmakr.eventmakr.Fragments.NavBar"
+        android:id="@+id/navBar"
+        android:layout_gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <!--<fragment-->
         <!--android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerCalendarFragment"-->
