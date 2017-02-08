@@ -29,4 +29,13 @@
     <string name="djs">DJs</string>
     <string name="bakeries">BAKERIES</string>
     <string name="filter_results_by_estimated_budget">Filter results by estimated budget</string>
+    <string name="contact_vendor">Contact Vendor</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="select">Select</string>
+    <string name="contact_vendor_to_confirm_availability">Contact Vendor to Confirm Availability</string>
+    <string name="upload_a_photo">Upload a Photo</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_account">   Delete Account   </string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="action_settings">Settings</string>
 </resources>

@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/paddingBottom"
+    android:paddingStart="@dimen/padddingLeft"
+    android:paddingEnd="@dimen/paddingRight"
+    android:paddingTop="@dimen/paddingTop"
+    tools:context="com.example.eventmakr.eventmakr.Fragments.ConsumerVendorProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/vendorProfile1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewVendorProfile"
+                app:cardElevation="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageViewVendorProfile"
+                    android:src="@drawable/logo"
+                    android:scaleType="centerInside"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+            </android.support.v7.widget.CardView>
+
+            <RelativeLayout
+                android:layout_marginLeft="140dp"
+                android:elevation="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewVendorName"
+                android:text="ABC CATERING"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewVendorDetails"
+                android:text="Details about the Vendor"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textViewVendorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewMap"
+            android:layout_below="@id/vendorProfile1"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--<include-->
+                <!--layout="@layout/activity_maps"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_width="match_parent"/>-->
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/button"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cardViewMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:text="menu item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/buttonContactVendor"
+        app:cardBackgroundColor="@color/colorButtons"
+        app:cardCornerRadius="5dp"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:text="@string/contact_vendor"
+                android:textSize="20sp"
+                android:elevation="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

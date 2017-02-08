@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/paddingBottom"
+    android:paddingStart="@dimen/padddingLeft"
+    android:paddingEnd="@dimen/paddingRight"
+    android:paddingTop="@dimen/paddingTop"
+    tools:context="com.example.eventmakr.eventmakr.Fragments.MenuItemFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewMenuItemName"
+                android:text="Menu Item Name"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageViewMenuItem"
+                android:layout_below="@+id/textViewMenuItemName"
+                android:src="@drawable/logo"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:id="@+id/texViewMenuItemDetails"
+                android:text="menu item details"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/imageViewMenuItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_below="@+id/topPanel"
+            android:layout_margin="30dp"
+            android:textAlignment="center"
+            android:text="details and pricing recyclerview goes here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/buttonMenuItemSelect"
+            app:cardBackgroundColor="@color/colorButtons"
+            app:cardCornerRadius="5dp"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="40dp"
+            android:elevation="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:text="@string/select"
+                    android:textSize="20sp"
+                    android:elevation="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</FrameLayout>
