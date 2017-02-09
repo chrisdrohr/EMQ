@@ -28,8 +28,8 @@
     </android.support.v7.widget.CardView>
 
     <fragment
-        android:name="com.example.eventmakr.eventmakr.Fragments.NavBar"
-        android:id="@+id/navBar"
+        android:name="com.example.eventmakr.eventmakr.Fragments.VendorFragments.VendorNavBar"
+        android:id="@+id/vendorNavBar"
         android:layout_gravity="bottom|center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
