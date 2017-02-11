@@ -1,18 +1,19 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingBottom="@dimen/paddingBottom"-->
+    <!--android:paddingStart="@dimen/padddingLeft"-->
+    <!--android:paddingEnd="@dimen/paddingRight"-->
+    <!--android:paddingTop="@dimen/paddingTop"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--tools:context="com.example.eventmakr.eventmakr.Activities.VendorActivity">-->
+
+
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/paddingBottom"
-    android:paddingStart="@dimen/padddingLeft"
-    android:paddingEnd="@dimen/paddingRight"
-    android:paddingTop="@dimen/paddingTop"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.eventmakr.eventmakr.Activities.VendorActivity">
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
             <TextView
                 android:text="@string/when_will_your_event_be_held"
@@ -79,4 +80,4 @@
 
     </RelativeLayout>
 
-</FrameLayout>
+<!--</FrameLayout>-->

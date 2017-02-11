@@ -7,7 +7,7 @@
     android:paddingStart="@dimen/padddingLeft"
     android:paddingEnd="@dimen/paddingRight"
     android:paddingTop="@dimen/paddingTop"
-    tools:context="com.example.eventmakr.eventmakr.Fragments.ConsumerVendorProfileFragment">
+    tools:context="com.example.eventmakr.eventmakr.Fragments.ConsumerFragments.ConsumerVendorProfileFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"

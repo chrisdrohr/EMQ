@@ -28,14 +28,14 @@
     </android.support.v7.widget.CardView>
 
     <fragment
-        android:name="com.example.eventmakr.eventmakr.Fragments.NavBar"
+        android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerNavBarFragments.NavBar"
         android:id="@+id/navBar"
         android:layout_gravity="bottom|center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <!--<fragment-->
-        <!--android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerCalendarFragment"-->
+        <!--android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerFragment.ConsumerCalendarFragment"-->
         <!--android:id="@+id/FragmentCalendar"-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="match_parent"/>-->

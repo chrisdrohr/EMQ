@@ -5,7 +5,7 @@
     android:layout_gravity="bottom"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.example.eventmakr.eventmakr.Fragments.NavBar">
+    tools:context="com.example.eventmakr.eventmakr.Fragments.ConsumerNavBarFragments.NavBar">
 
     <RelativeLayout
         android:layout_width="wrap_content"

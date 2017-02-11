@@ -5,7 +5,7 @@
     android:paddingBottom="@dimen/paddingBottom"
     android:paddingTop="@dimen/paddingTop"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.example.eventmakr.eventmakr.Fragments.ChatFragment">
+    tools:context="com.example.eventmakr.eventmakr.Fragments.ConsumerNavBarFragments.ChatFragment">
 
     <RelativeLayout
         android:layout_marginBottom="20dp"
