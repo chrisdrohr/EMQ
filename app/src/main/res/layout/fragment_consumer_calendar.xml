@@ -30,7 +30,7 @@
             <RelativeLayout
                 android:layout_centerHorizontal="true"
                 android:id="@+id/layoutCalendar"
-                android:layout_above="@+id/buttonFindVendorsCalendar"
+                android:layout_above="@+id/buttonFindVendors"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
@@ -49,7 +49,7 @@
             </RelativeLayout>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/buttonFindVendorsCalendar"
+                android:id="@+id/buttonFindVendors"
                 android:elevation="2dp"
                 app:cardBackgroundColor="@color/colorButtons"
                 app:cardCornerRadius="5dp"
