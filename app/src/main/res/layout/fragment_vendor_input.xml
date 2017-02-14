@@ -3,14 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingBottom="@dimen/paddingBottom"
-    android:paddingStart="@dimen/padddingLeft"
-    android:paddingEnd="@dimen/paddingRight"
-    android:paddingTop="@dimen/paddingTop"
     tools:context="com.example.eventmakr.eventmakr.Fragments.VendorFragments.VendorInputFragment">
 
     <RelativeLayout
-        android:paddingTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

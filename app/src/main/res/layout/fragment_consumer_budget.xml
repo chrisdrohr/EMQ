@@ -2,23 +2,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/paddingBottom"
+    android:paddingStart="@dimen/padddingLeft"
+    android:paddingEnd="@dimen/paddingRight"
+    android:paddingTop="@dimen/paddingTop"
     tools:context="com.example.eventmakr.eventmakr.Activities.VendorActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView_logo"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/logo2"
-            android:layout_width="80dp"
-            android:layout_height="80dp" />
-
         <RelativeLayout
             android:layout_centerHorizontal="true"
-            android:paddingTop="100dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -32,15 +27,15 @@
             <SeekBar
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:layout_margin="40dp"
+                android:layout_margin="20dp"
                 android:layout_centerHorizontal="true"
                 android:id="@+id/seekBarBudget" />
 
                 <TextView
                     android:layout_centerHorizontal="true"
+                    android:id="@+id/textViewVendorCategory"
                     android:layout_below="@+id/seekBarBudget"
-                    android:text="[vendor category]"
+                    android:text="vendor category"
                     android:textColor="@color/colorText"
                     android:textSize="20sp"
                     android:elevation="4dp"
@@ -48,6 +43,13 @@
                     android:textAlignment="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
+
+            <fragment
+                android:name="com.example.eventmakr.eventmakr.RecyclerFragment.RecyclerVendorFragment"
+                android:id="@+id/recyclerVendorFragment"
+                android:layout_below="@+id/textViewVendorCategory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
 
 
         </RelativeLayout>
