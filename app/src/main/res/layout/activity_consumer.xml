@@ -1,12 +1,16 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/consumerActivityLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.eventmakr.eventmakr.Activities.VendorActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <android.support.v7.widget.CardView
+        android:id="@+id/cardViewToolbar"
         app:cardBackgroundColor="@color/colorPrimary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -27,6 +31,18 @@
 
     </android.support.v7.widget.CardView>
 
+    <FrameLayout
+        android:id="@+id/consumerActivityLayout"
+        android:paddingTop="@dimen/paddingTop"
+        android:paddingStart="@dimen/padddingLeft"
+        android:paddingEnd="@dimen/paddingRight"
+        android:layout_below="@+id/cardViewToolbar"
+        android:layout_above="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
     <fragment
         android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerNavBarFragments.NavBar"
         android:id="@+id/navBar"
@@ -34,86 +50,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <!--<fragment-->
-        <!--android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerFragment.VendorMenuFragment"-->
-        <!--android:id="@+id/FragmentCalendar"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"/>-->
-
-    <!--<RelativeLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent">-->
-
-    <!--<ImageView-->
-        <!--android:id="@+id/imageView_logo"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:src="@drawable/logo"-->
-        <!--android:layout_width="80dp"-->
-        <!--android:layout_height="80dp" />-->
-
-    <!--<RelativeLayout-->
-        <!--android:layout_centerInParent="true"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content">-->
-
-        <!--<TextView-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:paddingTop="120dp"-->
-            <!--android:text="@string/select_your_location"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:id="@+id/textViewLocation" />-->
-
-        <!--<Spinner-->
-            <!--android:layout_width="150dp"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_below="@+id/textViewLocation"-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:layout_marginTop="28dp"-->
-            <!--android:id="@+id/spinner_location" />-->
-
-        <!--<TextView-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:paddingTop="250dp"-->
-            <!--android:text="@string/what_s_the_occasion"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:id="@+id/textViewOccasion"/>-->
-
-        <!--<Spinner-->
-            <!--android:layout_width="150dp"-->
-            <!--android:tag="Select"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_below="@+id/textViewOccasion"-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:layout_marginTop="28dp"-->
-            <!--android:id="@+id/spinner_occasion" />-->
-
-        <!--<RelativeLayout-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:layout_marginTop="400dp"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content">-->
-
-            <!--<TextView-->
-                <!--android:layout_centerInParent="true"-->
-                <!--android:text="@string/next"-->
-                <!--android:elevation="4dp"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content" />-->
-
-            <!--<ImageButton-->
-                <!--android:id="@+id/buttonNextDropdown"-->
-                <!--android:elevation="2dp"-->
-                <!--android:layout_width="300dp"-->
-                <!--android:layout_height="80dp" />-->
-
-        <!--</RelativeLayout>-->
-
-
-    <!--</RelativeLayout>-->
-
-    <!--</RelativeLayout>-->
+    </RelativeLayout>
 
 </FrameLayout>
