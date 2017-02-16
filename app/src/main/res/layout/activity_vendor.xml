@@ -50,7 +50,14 @@
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"/>
         </RelativeLayout>
+    </FrameLayout>
 
+        <FrameLayout
+            android:id="@+id/navVendorActivityLayout"
+            android:layout_below="@+id/cardViewToolbar"
+            android:layout_above="@+id/vendorNavBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
     </FrameLayout>
 
