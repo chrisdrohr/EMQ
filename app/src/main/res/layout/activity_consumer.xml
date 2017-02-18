@@ -41,12 +41,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
     </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/navConsumerActivityLayout"
+            android:layout_below="@+id/cardViewToolbar"
+            android:layout_above="@+id/navBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </FrameLayout>
 
     <fragment
         android:name="com.example.eventmakr.eventmakr.Fragments.ConsumerNavBarFragments.NavBar"
         android:id="@+id/navBar"
-        android:layout_gravity="bottom|center"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

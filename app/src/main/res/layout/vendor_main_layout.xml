@@ -32,7 +32,7 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.CardView
-                android:id="@+id/cardViewMenu"
+                android:id="@+id/cardViewProducts"
                 app:cardUseCompatPadding="true"
                 app:cardElevation="2dp"
                 app:cardBackgroundColor="@color/colorButtons"
@@ -47,9 +47,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
                     <TextView
-                        android:text="MENU"
-                        android:layout_centerHorizontal="true"
-                        android:layout_alignParentBottom="true"
+                        android:text="My Products"
+                        android:layout_centerInParent="true"
                         android:padding="10dp"
                         android:textColor="@color/colorText"
                         android:layout_width="wrap_content"
@@ -60,8 +59,8 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/cardViewMixologists"
-                android:layout_toEndOf="@id/cardViewMenu"
+                android:id="@+id/cardViewDocuments"
+                android:layout_toEndOf="@id/cardViewProducts"
                 app:cardUseCompatPadding="true"
                 app:cardElevation="2dp"
                 app:cardBackgroundColor="@color/colorButtons"
@@ -76,9 +75,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
                     <TextView
-                        android:text="@string/mixologists"
-                        android:layout_centerHorizontal="true"
-                        android:layout_alignParentBottom="true"
+                        android:text="Documents"
+                        android:layout_centerInParent="true"
                         android:padding="10dp"
                         android:textColor="@color/colorText"
                         android:layout_width="wrap_content"
@@ -89,8 +87,8 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/cardViewFlorists"
-                android:layout_toEndOf="@id/cardViewMixologists"
+                android:id="@+id/cardViewInputInfo"
+                android:layout_toEndOf="@id/cardViewDocuments"
                 app:cardUseCompatPadding="true"
                 app:cardElevation="2dp"
                 app:cardBackgroundColor="@color/colorButtons"
@@ -105,9 +103,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
                     <TextView
-                        android:text="@string/florists"
-                        android:layout_centerHorizontal="true"
-                        android:layout_alignParentBottom="true"
+                        android:text="My Info"
+                        android:layout_centerInParent="true"
                         android:padding="10dp"
                         android:textColor="@color/colorText"
                         android:layout_width="wrap_content"

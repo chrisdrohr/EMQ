@@ -12,41 +12,48 @@
         <TextView
             android:text="@string/contact_vendor_to_confirm_availability"
             android:id="@+id/TextViewTop"
-            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:textAlignment="center"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:text="recyclerview for items chosen goes here"
-            android:id="@+id/textViewPlaceholder"
+        <FrameLayout
+            android:id="@+id/layoutItems"
             android:layout_below="@+id/TextViewTop"
-            android:layout_margin="20dp"
-            android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <fragment
+                android:name="com.example.eventmakr.eventmakr.RecyclerFragment.RecyclerItemsFragment"
+                android:id="@+id/recyclerItemsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
 
         <TextView
             android:text="$50 TOTAL"
+            android:layout_below="@id/layoutItems"
             android:id="@+id/textViewTotalPrice"
-            android:layout_margin="30dp"
-            android:layout_below="@+id/textViewPlaceholder"
+            android:layout_margin="20dp"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <EditText
-            android:id="@+id/editTextOrderDetails"
-            android:layout_margin="20dp"
-            android:hint="Let us know any special instructions here"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/textViewTotalPrice"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        <!--<EditText-->
+            <!--android:id="@+id/editTextOrderDetails"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:hint="Let us know any special instructions here"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_below="@+id/textViewTotalPrice"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
 
         <android.support.v7.widget.CardView
-            android:id="@+id/buttonMenuItemSelect"
+            android:id="@+id/buttonContactVendor"
             app:cardBackgroundColor="@color/colorButtons"
             app:cardCornerRadius="5dp"
             android:layout_marginBottom="50dp"
@@ -63,7 +70,7 @@
 
                 <TextView
                     android:layout_centerInParent="true"
-                    android:text="@string/select"
+                    android:text="@string/contact_vendor"
                     android:textSize="20sp"
                     android:elevation="4dp"
                     android:layout_width="wrap_content"
